@@ -78,6 +78,24 @@ network_results.xlsx
 
 ---
 
+## ▶️ Advanced Usage
+
+If you want to see "Ports" and "Services (HTTP, FTP, SSH, etc.)" in result table, then use Version 2 👇
+
+```bash
+python network_scan_v2.py
+```
+
+If you want to see "Ports" and "Services (HTTP, FTP, SSH, etc.)", "Wireshark Filter" and "Accessed Files" in result table, then use Version 3 👇
+
+```bash
+python network_scan_v3.py
+```
+
+
+
+---
+
 ## 📊 Excel Report Structure
 
 The generated Excel file contains:
@@ -91,7 +109,7 @@ The generated Excel file contains:
 | Country     | IPInfo country code                |
 | AS Name     | ISP / ASN / Organization           |
 | VT Score    | Number of malicious detections     |
-| Abuse Score | AbuseIPDB confidence score         |
+| AbuseIPDB Score | AbuseIPDB confidence score         |
 
 Color coding is applied to the **VT Score** and **Abuse Score** fields.
 
